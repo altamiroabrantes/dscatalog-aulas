@@ -122,6 +122,14 @@ public class Product implements Serializable{
 			return false;
 		return true;
 	}
+
+	public Set<Category> getCategories() {
+		return categories;
+	}
+
+	public void setCategories(Set<Category> categories) {
+		this.categories = categories;
+	}
 	
 	
 }
